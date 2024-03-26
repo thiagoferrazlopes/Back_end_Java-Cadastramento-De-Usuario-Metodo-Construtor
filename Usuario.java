@@ -2,12 +2,9 @@ package AAAulaExercicio1;
 
 public class Usuario {
 	
-	
-	
 	String nome;
 	int idade;
 	double altura;
-	
 	
 	public Usuario() {}
 	
@@ -16,7 +13,6 @@ public class Usuario {
 		this.nome = nome;
 		this.idade = idade;
 		this.altura = altura;
-	
 	}
 
 	public String getNome() {
@@ -43,16 +39,11 @@ public class Usuario {
 		this.altura = altura;
 	}
 	
-	
-	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "NOME: " + nome + " / IDADE " + idade + " / Altura " + altura;
 	}
-	
-	
-
-	}
+}
 	
 	
 	

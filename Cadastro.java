@@ -10,7 +10,7 @@ public class Cadastro {
 		ArrayList<Usuario> cadastra = new ArrayList<>();
 		
 		Usuario cadastra1 = new Usuario("Ferraz", 37, 1.79);
-		Usuario cadastra2 = new Usuario("Bruno", 50, 1.75);
+		Usuario cadastra2 = new Usuario("Lopes", 50, 1.75);
 		
 		cadastra.add(cadastra1);
 		cadastra.add(cadastra2);
